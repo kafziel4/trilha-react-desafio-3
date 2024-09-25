@@ -13,7 +13,7 @@ export const Container = styled.main`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 300px;
+  max-width: 350px;
 `;
 
 export const Column = styled.div`
@@ -58,23 +58,26 @@ export const SubtitleLogin = styled.p`
   margin-bottom: 35px;
 `;
 
-export const EsqueciText = styled.p`
+export const TermosText = styled.p`
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
-
-  color: #e5e044;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
 `;
 
-export const CriarText = styled.a`
+export const ContaText = styled.p`
+  display: flex;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  text-decoration: none;
+`;
 
+export const LoginText = styled.a`
+  margin-left: 5px;
   color: #23dd7a;
+  text-decoration: none;
 `;

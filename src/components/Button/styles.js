@@ -9,7 +9,13 @@ export const ButtonContainer = styled.button`
   padding: 2px 12px;
   min-width: 120px;
   width: 100%;
+  max-width: 300px;
   border: 1px solid #000000;
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
 
   ${({ variant }) =>
     variant !== 'primary' &&
